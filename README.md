@@ -7,7 +7,7 @@ I am revisiting HTML through a 4-level tutorial to strengthen my understanding o
 ## Levels
 
 * **Level 1:** HTML Basics
-* **Level 2:** Coming Soon
+* **Level 2:** HTML Tags
 * **Level 3:** Coming Soon
 * **Level 4:** Coming Soon
 
@@ -17,9 +17,11 @@ I am revisiting HTML through a 4-level tutorial to strengthen my understanding o
 html-revision/
 ├── README.md
 ├── level-1/
-│   ├── level-1-practice.html
-│   └── hello-world.html
+│   ├── hello-world.html
+│   └── index.html
 ├── level-2/
+│   ├── DogImage.jpeg
+│   └── index.html
 ├── level-3/
 └── level-4/
 ```
