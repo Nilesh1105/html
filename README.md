@@ -8,7 +8,7 @@ I am revisiting HTML through a 4-level tutorial to strengthen my understanding o
 
 * **Level 1:** HTML Basics
 * **Level 2:** HTML Tags
-* **Level 3:** Coming Soon
+* **Level 3:** HTML Intermediate
 * **Level 4:** Coming Soon
 
 ## Repository Structure
@@ -23,12 +23,13 @@ html-revision/
 │   ├── DogImage.jpeg
 │   └── index.html
 ├── level-3/
+|   └── level_3.html
 └── level-4/
 ```
 
 ## Progress
 
 * [x] Level 1
-* [ ] Level 2
-* [ ] Level 3
+* [x] Level 2
+* [x] Level 3
 * [ ] Level 4
