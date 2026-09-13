@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level_4</title>
+</head>
+
+<body>
+    <!--Un-ordered list-->
+    <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Cherry</li>
+    </ul>
+
+    <!--Ordered list-->
+    <ol>
+        <li>Tata</li>
+        <li>Mahindra</li>
+        <li>Toyota</li>
+        <li>JLR</li>
+        <li>Suzuki</li>
+    </ol>
+
+    <!--Un-ordered list with it's un-ordered sublist-->
+    <ul>
+        <li>Mango</li>
+        <ul>
+            <li>Season: Summer</li>
+            <li>Colour: Yellow</li>
+        </ul>
+
+        <li>Banana</li>
+        <ul>
+            <li>Season: All seasons</li>
+            <li>Colour: Yelloe</li>
+        </ul>
+
+        <li>Strawberry</li>
+        <ul>
+            <li>Season: Winter</li>
+            <li>Colour: Red</li>
+        </ul>
+    </ul>
+
+    <!--Ordered list with it's ordered sublist-->
+    <ol>
+        <li>Toyota</li>
+        <ol>
+            <li>Fortuner</li>
+            <li>Innova</li>
+        </ol>
+
+        <li>Suzuki</li>
+        <ol>
+            <li>Omni</li>
+            <li>Swift</li>
+        </ol>
+
+        <li>Mahindra</li>
+        <ol>
+            <li>Scorpoi</li>
+            <li>Thar</li>
+        </ol>
+    </ol>
+
+    <!--Writing a table for 3 students-->
+    <table>
+        <caption><b>Student's Information</b></caption>
+        <thead>
+            <!--We can merge the table like below-->
+            <tr>
+                <th colspan="2">School Name</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Roll No</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Nilesh Shinde</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>Ritesh Shinde</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>Uddhav Shinde</td>
+                <td>24</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--Form section-->
+    <!--User can type his name-->
+    <br>
+    <form action="action.php">
+        <input type="text" placeholder="Enter Your Name">
+    </form>
+
+    <!--User can enter the password-->
+    <form action="action.php">
+        <input type="password" placeholder="Password">
+    </form>
+
+    <!--User can select his gender-->
+    <form action="action.php">
+        <input type="radio" value="male" name="gender">Male
+        <input type="radio" value="female" name="gender">Female
+        <input type="radio" value="other" name="gender">Other
+    </form>
+
+    <!--User can select his gender (but in this, if user clicks on the text area then also he can select it)-->
+    <form action="action.php">
+        <label for="male">
+            <input type="radio" value="male" name="gender" id="male">Male
+        </label>
+        <label for"female">
+            <input type="radio" value="female" name="gender" id="female">Female
+        </label>
+        <label for="other">
+            <input type="radio" value="other" name="gender" id="other">Other
+        </label>
+    </form>
+
+    <!--User can select his favourite food-->
+    <form action="action.php">
+        <input type="checkbox" name="food" value="indian">Indian</type>
+        <input type="checkbox" name="food" value="mexican">Mexican</type>
+        <input type="checkbox" name="food" value="chinese">Chinese</type>
+        <input type="checkbox" name="food" value="french">French</type>
+        <input type="checkbox" name="food" value="japanese">Japanese</type>
+    </form>
+
+    <!--User can select his favourite food (In this, if user click on the text area then also he can able to select the text)-->
+    <form action="action.php">
+        <label for"indian">
+            <input type="checkbox" name="food" value="indian" id="indian">Indian
+        </label>
+        <label for="chinese">
+            <input type="checkbox" name="food" value="chinese" id="chinese">Chinese
+        </label>
+        <label for="italian">
+            <input type="checkbox" name="food" value="italian" id="italian">Italian
+        </label>
+        <label for="spanish">
+            <input type="checkbox" name="food" value="spanish" id="spanish">Spanish
+        </label>
+        <label for="japanese">
+            <input type="checkbox" name="food" value="japanese" id="japanese">Japanese
+        </label>
+    </form>
+
+    <!--Taking a feed back from the user-->
+    <form action="action.php">
+        <textarea name="feedback" placeholder="Give your feedback here!!!"></textarea>
+    </form>
+
+    <!--User can able to select his city-->
+    <form action="action.php">
+        <select name="city">
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="chennai">Chennai</option>
+        </select>
+    </form>
+
+    <!--User can submit his information-->
+    <form action="action.php">
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
